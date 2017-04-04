@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+<div id="errorScreen"></div>
+<div>
+    <div class="game">
+        <div id="start" class="start" onclick="start()">
+            START
+        </div>
+        <div class="colorBtn greenBtn" onclick="userClick('0')"></div>
+        <div class="colorBtn redBtn" onclick="userClick('1')"></div>
+        <div class="colorBtn yellowBtn" onclick="userClick('2')"></div>
+        <div class="colorBtn blueBtn" onclick="userClick('3')"></div>
+    </div>
+
+</div>
+<div class="timer">
+    <h1 id="timerWatch">30</h1>
+</div>
+<div>
+    <h2 id="turn" class="turn"></h2>
+</div>
+</body>
+</html>
